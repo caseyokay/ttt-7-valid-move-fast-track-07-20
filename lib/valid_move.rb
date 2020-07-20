@@ -1,6 +1,9 @@
 # code your #valid_move? method here
+#between?(min, max) → true or falseclick to toggle source
+#Returns false if obj <=> min is less than zero or if obj <=> max is greater than zero, true otherwise.
+
 def valid_move (board, index)
-  if index.between? (1,9)
+  if index.between?(1,9)
 
 
 
