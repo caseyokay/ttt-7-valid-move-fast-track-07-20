@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move
-  if index.between?
+  if index.between? (1, 9)
 
 
 
